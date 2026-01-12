@@ -1,18 +1,17 @@
-# Python cache files
+# Python cache files (generated automatically)
 __pycache__/
 *.pyc
+.pytest_cache/
 
-# Virtual environments (if you create one)
+# Logs (We observe these locally, but don't push them)
+*.log
+
+# Virtual environments
 venv/
 env/
-.env
 
-# VS Code settings (personal preferences)
+# IDE settings
 .vscode/
 
-# Mac system files (just in case)
+# System files
 .DS_Store
-
-# Large data files (optional: keeps your repo light)
-# Remove the '#' below if your CSVs are very large
-# data/*.csv
