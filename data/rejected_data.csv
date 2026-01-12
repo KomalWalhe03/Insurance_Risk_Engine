@@ -1,0 +1,9 @@
+applicant_id,name,age,credit_score,claims_history,status,error_reason
+22578293,Amanda Johnson,-5,516,0,Rejected,"1 validation error for Applicant
+age
+  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=-5, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/greater_than_equal"
+74411769,Natalie Holloway,67,9000,0,Rejected,"1 validation error for Applicant
+credit_score
+  Input should be less than or equal to 850 [type=less_than_equal, input_value=9000, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/less_than_equal"
